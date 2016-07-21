@@ -1,5 +1,5 @@
 module libxml2 {
-    header "/usr/include/libxml2/libxml/tree.h"
+    header "libxml2.h"
     link "libxml2"
     export *
 }
