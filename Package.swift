@@ -20,9 +20,5 @@
 import PackageDescription
 
 let package = Package(
-	name: "libxml2",
-	pkgConfig: "libxml2",
-	providers: [
-	           	.Apt("libxml2")
-	]
+	name: "libxml2"
 )
