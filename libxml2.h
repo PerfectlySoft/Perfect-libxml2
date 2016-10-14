@@ -4,5 +4,5 @@
 #include <libxml2/libxml/tree.h>
 #include <libxml2/libxml/xpath.h>
 #include <libxml2/libxml/xpathInternals.h>
+#include <libxml2/libxml/HTMLparser.h>
 #endif
-
