@@ -6,4 +6,6 @@
 #include <libxml2/libxml/xpath.h>
 #include <libxml2/libxml/xpathInternals.h>
 #include <libxml2/libxml/HTMLparser.h>
+#include <libxml2/libxml/SAX.h>
+#include <libxml2/libxml/SAX2.h>
 #endif
