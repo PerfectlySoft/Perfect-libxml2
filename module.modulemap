@@ -1,4 +1,4 @@
-module libxml2 [system] {
+module perfectxml2 [system] {
     header "libxml2.h"
     link "xml2"
     export *
