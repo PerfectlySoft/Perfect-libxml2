@@ -1,3 +1,4 @@
+// swift-tools-version:4.0
 //
 //  Package.swift
 //  Perfect-libxml2
@@ -22,5 +23,5 @@ import PackageDescription
 let package = Package(
 	name: "libxml2",
 	pkgConfig: "libxml-2.0",
-	providers: [.Brew("libxml2"), .Apt("libxml2-dev")]
+	providers: [.brew(["libxml2"]), .apt(["libxml2-dev"])]
 )
